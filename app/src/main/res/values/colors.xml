@@ -2,4 +2,12 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="tahiti_gold">#EC9006</color> <!-- Primary Color -->
+    <color name="ice">#f0f3f4</color> <!-- Secondary  Color -->
+    <color name="dusty_grey">#9e9b9b</color> <!-- Secondary Color -->
+
+<!--    font color-->
+    <color name="dark_charcoal">#333333</color>
+    <color name="white_smoke">#f5f5f5</color>
 </resources>
