@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Autentikasi">
+    <!-- Navigation bar -->
+    <LinearLayout
+        android:id="@+id/navigationBar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:weightSum="12"
+        android:gravity="center_vertical">
+
+        <!-- Back button -->
+        <ImageView
+            android:id="@+id/backButton"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="40dp"
+            android:src="@drawable/panah_kiri"/>
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/pageTitle"
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:layout_height="wrap_content"
+            android:text="Autentikasi"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_marginRight="40dp"
+            android:gravity="center_vertical"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="35dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Silakan masukkan kode verifikasi yang dikirimkan ke Email/Inbox
+Anda. Jangan bagikan kode verifikasi kamu ke siapa pun."
+            android:textSize="18sp"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Email dikirimkan ke :"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="emailanda@gmail.com"></EditText>
+
+        <!-- Verification Code Inputs -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/edit_text_border"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:inputType="number"
+                android:maxLength="1"
+                android:padding="10dp"
+                android:layout_margin="5dp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/edit_text_border"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:inputType="number"
+                android:maxLength="1"
+                android:padding="10dp"
+                android:layout_margin="5dp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/edit_text_border"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:inputType="number"
+                android:maxLength="1"
+                android:padding="10dp"
+                android:layout_margin="5dp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/edit_text_border"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:inputType="number"
+                android:maxLength="1"
+                android:padding="10dp"
+                android:layout_margin="5dp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/edit_text_border"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:inputType="number"
+                android:maxLength="1"
+                android:padding="10dp"
+                android:layout_margin="5dp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/edit_text_border"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:inputType="number"
+                android:maxLength="1"
+                android:padding="10dp"
+                android:layout_margin="5dp"/>
+        </LinearLayout>
+
+        <!--        Timer Kirim Ulang OTP-->
+        <!--        Kirim Ulang OTP-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="05:00"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"></TextView>
+
+        <!--        Kirim Ulang OTP-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Kirim Ulang OTP"
+            android:gravity="center"></TextView>
+
+
+<!--        Tombol verifikasi-->
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Verifikasi"
+            android:backgroundTint="@color/tahiti_gold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15sp"
+            android:layout_marginTop="50dp"></Button>
+    </LinearLayout>
+
+</LinearLayout>
