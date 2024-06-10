@@ -3,14 +3,14 @@
     <font
         android:fontStyle="normal"
         android:fontWeight="400"
-        android:font="@font/robotoRegular"/>
+        android:font="@font/roboto_regular"/>
     <font
         android:fontStyle="italic"
         android:fontWeight="400"
-        android:font="@font/robotoItalic" />
+        android:font="@font/roboto_regularitalic" />
     <font
         android:fontStyle="normal"
         android:fontWeight="700"
-        android:font="@font/robotoBold" />
+        android:font="@font/roboto_bold" />
     <!-- Add other font weights and styles as needed -->
 </font-family>

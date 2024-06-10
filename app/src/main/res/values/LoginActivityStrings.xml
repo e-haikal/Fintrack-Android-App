@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="LoginBtn">LOGIN</string>
+    <string name="Jargon">Selalu Ada, Selalu Tercatat</string>
+    <string name="AlreadyHasAccountLabel">Belum punya akun? Daftar di sini</string>
+</resources>
