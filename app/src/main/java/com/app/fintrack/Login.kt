@@ -2,7 +2,13 @@ package com.app.fintrack
 
 import android.content.Intent
 import android.os.Bundle
+import android.text.SpannableString
+import android.text.Spanned
+import android.text.method.LinkMovementMethod
+import android.text.style.ClickableSpan
+import android.view.View
 import android.widget.Button
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -25,6 +31,22 @@ class Login : AppCompatActivity() {
             val pindah = Intent(this, Login1::class.java)
             startActivity(pindah)
         }
+
+        //Buat teks daftar di sini bisa diklik
+        val registerTextView: TextView = findViewById(R.id.registerText)
+        val text = "Belum punya akun? Daftar di sini"
+        val spannableString = SpannableString(text)
+
+        val clickablespan = object : ClickableSpan() {
+            override fun onClick(widget: View) {
+                val pindah = Intent(this@Login, Daftar::class.java)
+                startActivity(pindah)
+            }
+        }
+
+        spannableString.setSpan(clickablespan, 17, text.length, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
+        registerTextView.text = spannableString
+        registerTextView.movementMethod = LinkMovementMethod.getInstance()
 
     }
 }
