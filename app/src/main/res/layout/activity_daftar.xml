@@ -24,8 +24,7 @@
             android:layout_width="0dp"
             android:layout_weight="2"
             android:layout_height="40dp"
-            android:src="@drawable/panah_kiri"
-            android:contentDescription="@string/back_button"/>
+            android:src="@drawable/panah_kiri"/>
 
         <!-- Title -->
         <TextView
@@ -43,7 +42,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="300dp"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_gravity="center"
@@ -119,8 +118,7 @@
             android:backgroundTint="@color/tahiti_gold"
             android:layout_gravity="center"
             android:layout_marginBottom="15sp"
-            android:layout_marginTop="50dp"
-            ></Button>
+            android:layout_marginTop="50dp"></Button>
 
 <!--        Ikon sosial media-->
         <LinearLayout
