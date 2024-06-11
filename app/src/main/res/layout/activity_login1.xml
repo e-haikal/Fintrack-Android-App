@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:orientation="horizontal"
-        android:paddingStart="20dp"
+        android:paddingStart="15dp"
         android:paddingEnd="20dp"
         android:gravity="center_vertical">
 
@@ -35,8 +35,7 @@
             android:textAlignment="center"
             android:textSize="26sp"
             android:textStyle="bold"
-            android:paddingRight="20dp"
-            android:gravity="center_vertical"/>
+            android:paddingRight="20dp"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="350dp"
@@ -67,11 +66,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Input password"></EditText>
+
         <TextView
+            android:id="@+id/lupaPasswordText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Lupa Password?"
-            android:layout_gravity="right"></TextView>
+            android:layout_gravity="right"
+            android:text="Lupa Password?"></TextView>
 
         <Button
             android:layout_width="250dp"
@@ -114,6 +115,7 @@
     </LinearLayout>
 
     <TextView
+        android:id="@+id/registerText2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Belum punya akun? Daftar di sini"
