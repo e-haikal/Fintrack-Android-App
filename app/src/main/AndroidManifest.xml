@@ -13,17 +13,28 @@
         android:theme="@style/Theme.Fintrack"
         tools:targetApi="31">
         <activity
+            android:name=".UbahPassword"
+            android:exported="false" />
+        <activity
+            android:name=".Autentikasi"
+            android:exported="false" />
+        <activity
+            android:name=".Daftar"
+            android:exported="false" />
+        <activity
+            android:name=".Login1"
+            android:exported="false" />
+        <activity
             android:name=".Login"
             android:exported="false" />
         <activity
-            android:name=".SplashScreen"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
