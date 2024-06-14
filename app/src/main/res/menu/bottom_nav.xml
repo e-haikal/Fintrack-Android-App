@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home"
+        />
+    <item android:title="Category"
+        android:id="@+id/nav_category"
+        android:icon="@drawable/category"
+        />
+    <item android:title=""
+        android:id="@+id/nav_placeholder"
+        />
+    <item android:title="Laporan"
+        android:id="@+id/nav_laporan"
+        android:icon="@drawable/laporan"
+        />
+    <item android:title="Akun"
+        android:id="@+id/nav_akun"
+        android:icon="@drawable/person"
+        />
+</menu>
