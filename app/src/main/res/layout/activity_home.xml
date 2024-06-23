@@ -166,7 +166,7 @@
             android:layout_height="wrap_content"
 
             android:layout_marginTop="60dp"
-            android:text="Nabung yuk !"
+            android:text="@string/nabung_yukLabel"
             android:fontFamily="@font/roboto_family"
             android:textColor="#FFFFFF"
             android:textSize="14pt"

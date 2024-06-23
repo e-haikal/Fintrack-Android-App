@@ -52,4 +52,5 @@
     <string name="saldoLabel">Saldo</string>
     <string name="pemasukanLabel">Pemasukan</string>
     <string name="pengeluaranLabel">Pengeluaran</string>
+    <string name="nabung_yukLabel">Nabung yuk !</string>
 </resources>
