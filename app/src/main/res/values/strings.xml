@@ -49,4 +49,7 @@
     <string name="Saldo">55000</string>
     <string name="Pemasukan">100000</string>
     <string name="Pengeluaran">-45000</string>
+    <string name="saldoLabel">Saldo</string>
+    <string name="pemasukanLabel">Pemasukan</string>
+    <string name="pengeluaranLabel">Pengeluaran</string>
 </resources>
