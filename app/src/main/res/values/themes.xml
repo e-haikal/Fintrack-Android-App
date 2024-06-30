@@ -7,4 +7,9 @@
     </style>
 
     <style name="Theme.Fintrack" parent="Base.Theme.Fintrack" />
+
+    <style name="roundedImageViewRounded">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
 </resources>
