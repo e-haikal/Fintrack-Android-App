@@ -46,8 +46,8 @@
                 android:gravity="center"/>
         </LinearLayout>
         <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:src="@drawable/profil_placeholder"
             android:layout_marginTop="30dp"
             android:layout_marginBottom="5dp"
@@ -57,12 +57,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginLeft="20sp"
-        android:layout_marginTop="20dp">
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp">
         <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:src="@drawable/noimage"></ImageView>
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/faq_icon"></ImageView>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -75,12 +75,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginLeft="20sp"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp">
         <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:src="@drawable/noimage"></ImageView>
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/tentang_icon"></ImageView>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -93,12 +93,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginLeft="20sp"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp">
         <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:src="@drawable/noimage"></ImageView>
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/privasi_icon"></ImageView>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -111,12 +111,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginLeft="20sp"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp">
         <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:src="@drawable/noimage"></ImageView>
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/syarat_icon"></ImageView>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -132,6 +132,6 @@
         android:text="@string/LogoutBtn"
         android:backgroundTint="@color/tahiti_gold"
         android:layout_gravity="center"
-        android:layout_marginTop="30"
+        android:layout_marginTop="40dp"
         android:layout_marginBottom="15sp" />
 </LinearLayout>
