@@ -13,6 +13,15 @@
         android:theme="@style/Theme.Fintrack"
         tools:targetApi="31">
         <activity
+            android:name=".Ketentuan"
+            android:exported="false" />
+        <activity
+            android:name=".Privasi"
+            android:exported="false" />
+        <activity
+            android:name=".TestPerdana"
+            android:exported="false" />
+        <activity
             android:name=".Tentang"
             android:exported="false" />
         <activity
