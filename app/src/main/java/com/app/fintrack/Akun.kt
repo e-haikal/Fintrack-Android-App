@@ -17,8 +17,5 @@ class Akun : AppCompatActivity() {
             insets
         }
 
-        val textView = findViewById<TextView>(R.id.texthome)
-        textView.setBackgroundResource(R.drawable.bottom_border)
-
     }
 }
