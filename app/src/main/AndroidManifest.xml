@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Fintrack"
         tools:targetApi="31">
         <activity
+            android:name=".EditData"
+            android:exported="false" />
+        <activity
             android:name=".Homev2"
             android:exported="false" />
         <activity
