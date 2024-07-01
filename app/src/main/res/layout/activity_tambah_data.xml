@@ -47,6 +47,7 @@
         android:weightSum="12"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
+        android:layout_marginBottom="10dp"
         android:orientation="horizontal">
         <Button
             android:id="@+id/pemasukanButton"

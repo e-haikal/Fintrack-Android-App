@@ -6,28 +6,27 @@
     android:layout_marginLeft="20dp"
     android:layout_marginRight="20dp"
     android:gravity="center"
-    android:orientation="vertical"> <!-- Tambahkan atribut ini -->
+    android:orientation="vertical"
     tools:context=".PengeluaranFragment">
 
-    <!-- fragment_pemasukan.xml -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:orientation="horizontal"> <!-- Tambahkan atribut ini untuk rata tengah secara horizontal -->
+        android:orientation="horizontal">
 
-        <!--        baris pertama-->
+        <!-- Baris pertama -->
         <LinearLayout
+            android:id="@+id/itemMakanan"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_horizontal"
-            android:orientation="vertical"> <!-- Tambahkan gravity untuk item di dalam -->
+            android:orientation="vertical">
             <ImageView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:src="@drawable/noimage" />
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -35,17 +34,16 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/itemMinuman"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_horizontal"
-            android:orientation="vertical"> <!-- Tambahkan gravity untuk item di dalam -->
-
+            android:orientation="vertical">
             <ImageView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:src="@drawable/noimage" />
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -53,16 +51,16 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/itemPermainan"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_horizontal"
-            android:orientation="vertical"> <!-- Tambahkan gravity untuk item di dalam -->
+            android:orientation="vertical">
             <ImageView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:src="@drawable/noimage" />
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -70,16 +68,16 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/itemHadiah"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_horizontal"
-            android:orientation="vertical"> <!-- Tambahkan gravity untuk item di dalam -->
+            android:orientation="vertical">
             <ImageView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:src="@drawable/noimage" />
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -87,25 +85,25 @@
         </LinearLayout>
     </LinearLayout>
 
-
-    <!--        Baris kedua-->
+    <!-- Baris kedua -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:layout_marginTop="10dp"
-        android:orientation="horizontal"> <!-- Tambahkan atribut ini untuk rata tengah secara horizontal -->
+        android:orientation="horizontal">
+
         <LinearLayout
+            android:id="@+id/itemBelanja"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_horizontal"
-            android:orientation="vertical"> <!-- Tambahkan gravity untuk item di dalam -->
+            android:orientation="vertical">
             <ImageView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:src="@drawable/noimage" />
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -113,16 +111,16 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/itemTransportasi"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_horizontal"
-            android:orientation="vertical"> <!-- Tambahkan gravity untuk item di dalam -->
+            android:orientation="vertical">
             <ImageView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:src="@drawable/noimage" />
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -130,16 +128,16 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/itemBiayaListrik"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_horizontal"
-            android:orientation="vertical"> <!-- Tambahkan gravity untuk item di dalam -->
+            android:orientation="vertical">
             <ImageView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:src="@drawable/noimage" />
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -147,16 +145,16 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/itemKategoriBaru"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_horizontal"
-            android:orientation="vertical"> <!-- Tambahkan gravity untuk item di dalam -->
+            android:orientation="vertical">
             <ImageView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:src="@drawable/noimage" />
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
