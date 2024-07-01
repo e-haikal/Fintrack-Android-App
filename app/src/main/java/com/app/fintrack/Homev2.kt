@@ -50,7 +50,7 @@ class Homev2 : AppCompatActivity() {
         //mengaktifkan tombol login
         val homeButton: Button = findViewById(R.id.homeButton)
         homeButton.setOnClickListener {
-            val pindah = Intent(this, HomeActivity::class.java)
+            val pindah = Intent(this, Homev3::class.java)
             startActivity(pindah)
         }
     }
