@@ -60,7 +60,7 @@ class Login1 : AppCompatActivity() {
         //mengaktifkan tombol login
         val loginButton: Button = findViewById(R.id.loginButton)
         loginButton.setOnClickListener {
-            val pindah = Intent(this, Homev2::class.java)
+            val pindah = Intent(this, HomeActivity::class.java)
             startActivity(pindah)
         }
     }

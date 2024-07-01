@@ -25,7 +25,7 @@
             android:name=".Homev2"
             android:exported="false" />
         <activity
-            android:name=".Homev3"
+            android:name=".HomeActivity"
             android:exported="false" />
         <activity
             android:name=".TambahData"
