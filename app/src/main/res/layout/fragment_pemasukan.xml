@@ -27,7 +27,7 @@
             <ImageView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@drawable/noimage" />
+                android:src="@drawable/gaji_icon" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -45,7 +45,7 @@
             <ImageView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@drawable/noimage" />
+                android:src="@drawable/investasi_icon" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -63,7 +63,7 @@
             <ImageView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@drawable/noimage" />
+                android:src="@drawable/sewa_icon" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -81,7 +81,7 @@
             <ImageView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@drawable/noimage" />
+                android:src="@drawable/royalti_icon" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -108,7 +108,7 @@
             <ImageView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@drawable/noimage" />
+                android:src="@drawable/add_icon" />
 
             <TextView
                 android:layout_width="wrap_content"
