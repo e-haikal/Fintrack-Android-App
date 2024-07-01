@@ -14,46 +14,46 @@ class TambahKategori : AppCompatActivity() {
         val selectedIcon: ImageView = findViewById(R.id.selectedIcon)
 
         // ImageView dalam daftar ikon
-        val iconMakanan: ImageView = findViewById(R.id.iconMakanan)
-        val iconMinuman: ImageView = findViewById(R.id.iconMinuman)
-        val iconPermainan: ImageView = findViewById(R.id.iconPermainan)
-        val iconHadiah: ImageView = findViewById(R.id.iconHadiah)
-        val iconBelanja: ImageView = findViewById(R.id.iconBelanja)
-        val iconTransportasi: ImageView = findViewById(R.id.iconTransportasi)
-        val iconBiayaListrik: ImageView = findViewById(R.id.iconBiayaListrik)
-        val iconKategoriBaru: ImageView = findViewById(R.id.iconKategoriBaru)
+        val transportasiIcon: ImageView = findViewById(R.id.transportasiIcon)
+        val gajiIcon: ImageView = findViewById(R.id.gajiIcon)
+        val sewaIcon: ImageView = findViewById(R.id.sewaIcon)
+        val belanjaIcon: ImageView = findViewById(R.id.belanjaIcon)
+        val minumanIcon: ImageView = findViewById(R.id.minumanIcon)
+        val makananIcon: ImageView = findViewById(R.id.makananIcon)
+        val hadiahIcon: ImageView = findViewById(R.id.hadiahIcon)
+        val listrikIcon: ImageView = findViewById(R.id.listrikIcon)
 
         // Atur OnClickListener untuk setiap ImageView dalam daftar ikon
-        iconMakanan.setOnClickListener {
-            selectedIcon.setImageResource(R.drawable.noimage) // Ganti dengan resource yang sesuai
+        transportasiIcon.setOnClickListener {
+            selectedIcon.setImageResource(R.drawable.transportasi_icon) // Ganti dengan resource yang sesuai
         }
 
-        iconMinuman.setOnClickListener {
-            selectedIcon.setImageResource(R.drawable.noimage) // Ganti dengan resource yang sesuai
+        gajiIcon.setOnClickListener {
+            selectedIcon.setImageResource(R.drawable.gaji_icon) // Ganti dengan resource yang sesuai
         }
 
-        iconPermainan.setOnClickListener {
-            selectedIcon.setImageResource(R.drawable.noimage) // Ganti dengan resource yang sesuai
+        sewaIcon.setOnClickListener {
+            selectedIcon.setImageResource(R.drawable.sewa_icon) // Ganti dengan resource yang sesuai
         }
 
-        iconHadiah.setOnClickListener {
-            selectedIcon.setImageResource(R.drawable.noimage) // Ganti dengan resource yang sesuai
+        belanjaIcon.setOnClickListener {
+            selectedIcon.setImageResource(R.drawable.belanja_icon) // Ganti dengan resource yang sesuai
         }
 
-        iconBelanja.setOnClickListener {
-            selectedIcon.setImageResource(R.drawable.noimage) // Ganti dengan resource yang sesuai
+        minumanIcon.setOnClickListener {
+            selectedIcon.setImageResource(R.drawable.minuman_icon) // Ganti dengan resource yang sesuai
         }
 
-        iconTransportasi.setOnClickListener {
-            selectedIcon.setImageResource(R.drawable.noimage) // Ganti dengan resource yang sesuai
+        makananIcon.setOnClickListener {
+            selectedIcon.setImageResource(R.drawable.makanan_icon) // Ganti dengan resource yang sesuai
         }
 
-        iconBiayaListrik.setOnClickListener {
-            selectedIcon.setImageResource(R.drawable.noimage) // Ganti dengan resource yang sesuai
+        hadiahIcon.setOnClickListener {
+            selectedIcon.setImageResource(R.drawable.hadiah_icon) // Ganti dengan resource yang sesuai
         }
 
-        iconKategoriBaru.setOnClickListener {
-            selectedIcon.setImageResource(R.drawable.fb_icon) // Ganti dengan resource yang sesuai
+        listrikIcon.setOnClickListener {
+            selectedIcon.setImageResource(R.drawable.listrik_icon) // Ganti dengan resource yang sesuai
         }
     }
 }

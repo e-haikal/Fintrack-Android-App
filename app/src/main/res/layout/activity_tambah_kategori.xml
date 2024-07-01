@@ -86,11 +86,12 @@
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:orientation="vertical">
+
             <ImageView
-                android:id="@+id/iconMakanan"
-                android:layout_width="50dp"
+                android:id="@+id/transportasiIcon"
+                android:layout_width="44dp"
                 android:layout_height="50dp"
-                android:src="@drawable/noimage"/>
+                android:src="@drawable/transportasi_icon" />
         </LinearLayout>
 
         <LinearLayout
@@ -101,10 +102,10 @@
             android:gravity="center_horizontal"
             android:orientation="vertical">
             <ImageView
-                android:id="@+id/iconMinuman"
+                android:id="@+id/gajiIcon"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@drawable/noimage"/>
+                android:src="@drawable/gaji_icon"/>
         </LinearLayout>
 
         <LinearLayout
@@ -115,10 +116,10 @@
             android:gravity="center_horizontal"
             android:orientation="vertical">
             <ImageView
-                android:id="@+id/iconPermainan"
+                android:id="@+id/sewaIcon"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@drawable/noimage"/>
+                android:src="@drawable/sewa_icon"/>
         </LinearLayout>
 
         <LinearLayout
@@ -129,10 +130,10 @@
             android:gravity="center_horizontal"
             android:orientation="vertical">
             <ImageView
-                android:id="@+id/iconHadiah"
+                android:id="@+id/belanjaIcon"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@drawable/noimage"/>
+                android:src="@drawable/belanja_icon"/>
         </LinearLayout>
     </LinearLayout>
 
@@ -151,11 +152,12 @@
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:orientation="vertical">
+
             <ImageView
-                android:id="@+id/iconBelanja"
-                android:layout_width="50dp"
+                android:id="@+id/minumanIcon"
+                android:layout_width="wrap_content"
                 android:layout_height="50dp"
-                android:src="@drawable/noimage"/>
+                android:src="@drawable/minuman_icon" />
         </LinearLayout>
 
         <LinearLayout
@@ -166,10 +168,10 @@
             android:gravity="center_horizontal"
             android:orientation="vertical">
             <ImageView
-                android:id="@+id/iconTransportasi"
+                android:id="@+id/makananIcon"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@drawable/noimage"/>
+                android:src="@drawable/makanan_icon"/>
         </LinearLayout>
 
         <LinearLayout
@@ -180,10 +182,10 @@
             android:gravity="center_horizontal"
             android:orientation="vertical">
             <ImageView
-                android:id="@+id/iconBiayaListrik"
+                android:id="@+id/hadiahIcon"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@drawable/noimage"/>
+                android:src="@drawable/hadiah_icon"/>
         </LinearLayout>
 
         <LinearLayout
@@ -194,10 +196,10 @@
             android:gravity="center_horizontal"
             android:orientation="vertical">
             <ImageView
-                android:id="@+id/iconKategoriBaru"
+                android:id="@+id/listrikIcon"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@drawable/noimage"/>
+                android:src="@drawable/listrik_icon"/>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
