@@ -47,4 +47,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="HOME"></Button>
+
+
+    <Button
+        android:id="@+id/kategoriButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kategori"></Button>
 </LinearLayout>

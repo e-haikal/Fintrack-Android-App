@@ -53,5 +53,12 @@ class Homev2 : AppCompatActivity() {
             val pindah = Intent(this, Homev3::class.java)
             startActivity(pindah)
         }
+
+        //mengaktifkan tombol login
+        val kategoriButton: Button = findViewById(R.id.kategoriButton)
+        kategoriButton.setOnClickListener {
+            val pindah = Intent(this, Kategori::class.java)
+            startActivity(pindah)
+        }
     }
 }
