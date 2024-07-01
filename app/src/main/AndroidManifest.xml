@@ -13,6 +13,36 @@
         android:theme="@style/Theme.Fintrack"
         tools:targetApi="31">
         <activity
+            android:name=".EditData"
+            android:exported="false" />
+        <activity
+            android:name=".Homev2"
+            android:exported="false" />
+        <activity
+            android:name=".TambahData"
+            android:exported="false" />
+        <activity
+            android:name=".Laporan"
+            android:exported="false" />
+        <activity
+            android:name=".Ketentuan"
+            android:exported="false" />
+        <activity
+            android:name=".Privasi"
+            android:exported="false" />
+        <activity
+            android:name=".TestPerdana"
+            android:exported="false" />
+        <activity
+            android:name=".Tentang"
+            android:exported="false" />
+        <activity
+            android:name=".Faq"
+            android:exported="false" />
+        <activity
+            android:name=".Akun"
+            android:exported="false" />
+        <activity
             android:name=".UbahPassword"
             android:exported="false" />
         <activity
@@ -30,14 +60,18 @@
         <activity
             android:name=".MainActivity"
             android:exported="false" />
-        <activity android:name=".HomeActivity"
-            android:exported="false"
-            />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivitydate"
+            android:exported="false" />
         <activity
             android:name=".SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
