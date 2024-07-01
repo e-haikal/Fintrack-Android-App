@@ -54,4 +54,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Kategori"></Button>
+
+
+
+    <Button
+        android:id="@+id/tambahKategoriButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tambah kategori"></Button>
 </LinearLayout>

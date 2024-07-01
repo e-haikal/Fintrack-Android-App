@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TambahKategori">
+
+    <!-- Navigation bar -->
+    <LinearLayout
+        android:id="@+id/navigationBar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="20dp"
+        android:gravity="center_vertical">
+
+        <!-- Back button -->
+        <ImageView
+            android:id="@+id/backButton"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="40dp"
+            android:src="@drawable/panah_kiri"/>
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/pageTitle"
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:layout_height="wrap_content"
+            android:text="Tambah Kategori"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="26sp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/okButton"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="25dp"
+            android:src="@drawable/ok_icon"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/selectedIcon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/noimage"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="30dp"
+            android:hint="Masukkan Nama Kategori"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:layout_margin="15dp"
+        android:textSize="16sp"
+        android:text="List Icon"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <!-- Baris pertama -->
+        <LinearLayout
+            android:id="@+id/itemMakanan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/iconMakanan"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/noimage"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/itemMinuman"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/iconMinuman"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/noimage"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/itemPermainan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/iconPermainan"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/noimage"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/itemHadiah"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/iconHadiah"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/noimage"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Baris kedua -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/itemBelanja"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/iconBelanja"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/noimage"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/itemTransportasi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/iconTransportasi"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/noimage"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/itemBiayaListrik"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/iconBiayaListrik"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/noimage"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/itemKategoriBaru"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/iconKategoriBaru"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/noimage"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
