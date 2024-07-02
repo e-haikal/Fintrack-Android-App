@@ -64,6 +64,7 @@
             android:layout_height="30dp"
             android:src="@drawable/faq_icon"></ImageView>
         <TextView
+            android:id="@+id/faqMenu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="FAQ"
@@ -82,6 +83,7 @@
             android:layout_height="30dp"
             android:src="@drawable/tentang_icon"></ImageView>
         <TextView
+            android:id="@+id/tentangMenu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Tentang"
@@ -100,6 +102,7 @@
             android:layout_height="30dp"
             android:src="@drawable/privasi_icon"></ImageView>
         <TextView
+            android:id="@+id/privasiMenu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Pemberitahuan Privasi"
@@ -118,6 +121,7 @@
             android:layout_height="30dp"
             android:src="@drawable/syarat_icon"></ImageView>
         <TextView
+            android:id="@+id/ketentuanMenu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Syarat dan Ketentuan"
@@ -126,7 +130,7 @@
             android:layout_marginLeft="10dp"></TextView>
     </LinearLayout>
     <Button
-        android:id="@+id/loginButton"
+        android:id="@+id/logoutButton"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:text="@string/LogoutBtn"
