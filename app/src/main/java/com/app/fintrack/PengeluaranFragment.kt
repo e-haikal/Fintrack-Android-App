@@ -1,8 +1,10 @@
 package com.app.fintrack
 
+import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
 import android.view.View
+import android.widget.ImageView
 import android.widget.LinearLayout
 import androidx.fragment.app.Fragment
 
@@ -21,6 +23,7 @@ class PengeluaranFragment : Fragment(R.layout.fragment_pengeluaran) {
         val itemTransportasi = view.findViewById<LinearLayout>(R.id.itemTransportasi)
         val itemBiayaListrik = view.findViewById<LinearLayout>(R.id.itemBiayaListrik)
         val itemKategoriBaru = view.findViewById<LinearLayout>(R.id.itemKategoriBaru)
+        val addKategoriPengeluaranIv = view.findViewById<ImageView>(R.id.addKategoriPengeluaranIv)
 
         val items = listOf(itemMakanan, itemMinuman, itemPermainan, itemHadiah, itemBelanja, itemTransportasi, itemBiayaListrik, itemKategoriBaru)
 
@@ -33,6 +36,12 @@ class PengeluaranFragment : Fragment(R.layout.fragment_pengeluaran) {
                 // Update the last clicked item
                 lastClickedItem = item
             }
+        }
+
+        // Mengaktifkan tombol tambah kategori pengeluaran
+        addKategoriPengeluaranIv.setOnClickListener {
+            val pindah = Intent(activity, TambahKategori::class.java)
+            startActivity(pindah)
         }
     }
 }

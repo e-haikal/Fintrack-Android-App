@@ -1,11 +1,14 @@
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.LinearLayout
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import com.app.fintrack.R
+import com.app.fintrack.TambahKategori
 
 class PemasukanFragment : Fragment() {
 
@@ -22,6 +25,7 @@ class PemasukanFragment : Fragment() {
         val sewaLayout: LinearLayout = view.findViewById(R.id.sewaLayout)
         val royaltiLayout: LinearLayout = view.findViewById(R.id.royaltiLayout)
         val kategoriBaruLayout: LinearLayout = view.findViewById(R.id.kategoriBaruLayout)
+        val addKategoriPemasukanIv: ImageView = view.findViewById(R.id.addKategoriPemasukanIv)
 
         val greyColor = ContextCompat.getColor(requireContext(), R.color.dusty_grey)
 
@@ -30,6 +34,11 @@ class PemasukanFragment : Fragment() {
         sewaLayout.setOnClickListener { changeBackgroundColor(it, greyColor) }
         royaltiLayout.setOnClickListener { changeBackgroundColor(it, greyColor) }
         kategoriBaruLayout.setOnClickListener { changeBackgroundColor(it, greyColor) }
+
+        addKategoriPemasukanIv.setOnClickListener {
+            val pindah = Intent(activity, TambahKategori::class.java)
+            startActivity(pindah)
+        }
 
         return view
     }
