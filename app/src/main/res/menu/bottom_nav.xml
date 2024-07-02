@@ -10,7 +10,8 @@
         android:icon="@drawable/category"
         />
     <item android:title=""
-        android:id="@+id/nav_placeholder"
+        android:id="@+id/nav_tambahdata"
+        android:icon="@drawable/add_icon"
         />
     <item android:title="Laporan"
         android:id="@+id/nav_laporan"

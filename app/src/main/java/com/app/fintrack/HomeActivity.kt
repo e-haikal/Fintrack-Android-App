@@ -7,12 +7,19 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 class HomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_home)
+
+        val tambahDataHome = findViewById<FloatingActionButton>(R.id.tambahDataHome)
+        tambahDataHome.setOnClickListener {
+            val pindah = Intent(this, TambahData::class.java)
+            startActivity(pindah)
+        }
 
         // Menetapkan listener untuk BottomNavigationView
         val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottomNavigationView)
@@ -30,6 +37,11 @@ class HomeActivity : AppCompatActivity() {
                     val pindah = Intent(this, Kategori::class.java)
                     startActivity(pindah)
                     true                }
+                R.id.nav_tambahdata -> { // sesuai dengan ID yang didefinisikan di bottom_nav.xml
+                    val pindah = Intent(this, TambahData::class.java)
+                    startActivity(pindah)
+                    true
+                }
                 R.id.nav_laporan -> {
                     // Navigasi ke halaman Laporan
                     // Navigasi ke halaman Akun
