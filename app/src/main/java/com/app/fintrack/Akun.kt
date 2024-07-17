@@ -57,6 +57,13 @@ class Akun : AppCompatActivity() {
         }
 
 
+        //mengaktifkan  testing mennu
+        val testingBtn: TextView = findViewById(R.id.testing)
+        testingBtn.setOnClickListener {
+            val pindah = Intent(this, Homev2::class.java)
+            startActivity(pindah)
+            finish()
+        }
 
 
     }

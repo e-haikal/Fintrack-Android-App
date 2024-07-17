@@ -13,9 +13,11 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
         android:gravity="center_horizontal"
         android:layout_marginTop="30dp"
-        android:text="Hello world!"></TextView>
+        android:textSize="22sp"
+        android:text="Ini adalah laman production untuk testing page!"></TextView>
 
     <Button
         android:id="@+id/laporanButton"
@@ -56,6 +58,11 @@
         android:text="Kategori"></Button>
 
 
+    <Button
+        android:id="@+id/editKategoriButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Kategori"></Button>
 
     <Button
         android:id="@+id/tambahKategoriButton"

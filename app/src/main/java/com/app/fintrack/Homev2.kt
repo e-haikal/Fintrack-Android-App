@@ -54,7 +54,7 @@ class Homev2 : AppCompatActivity() {
             startActivity(pindah)
         }
 
-        //mengaktifkan tombol login
+        //mengaktifkan tombol kategori button
         val kategoriButton: Button = findViewById(R.id.kategoriButton)
         kategoriButton.setOnClickListener {
             val pindah = Intent(this, Kategori::class.java)
@@ -65,6 +65,13 @@ class Homev2 : AppCompatActivity() {
         val tambahKategoriButton: Button = findViewById(R.id.tambahKategoriButton)
         tambahKategoriButton.setOnClickListener {
             val pindah = Intent(this, TambahKategori::class.java)
+            startActivity(pindah)
+        }
+
+        //mengaktifkan tomboledit kategori
+        val editKategoriButton: Button = findViewById(R.id.editKategoriButton)
+        editKategoriButton.setOnClickListener {
+            val pindah = Intent(this, EditKategori::class.java)
             startActivity(pindah)
         }
     }
